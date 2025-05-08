@@ -5,18 +5,18 @@
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 
 **Índice**
-- [📦 Bibliotecas Java Utilizadas](#-📦-bibliotecas-java-utilizadas-e-suas-versões:)
-- [✨ Funcionalidades Implementadas](#-✨-funcionalidades-implementadas-)
-- [🛠️ Como Começar](#-🛠️-como-começar-)
-    - [⚙️ Pré-requisitos](#-⚙️-pré-requisitos-)
-    - [⚙️ Instalação](#-⚙️-instalação-)
-    - [▶️ Execução](#-▶️-execução-)
-- [📖 Uso / Como Usar](#-📖-uso--como-usar-)
-    - [👤 Registro de Novo Usuário](#-👤-registro-de-novo-usuário-)
-    - [🔑 Login de Usuário Existente](#-🔑-login-de-usuário-existente-)
-    - [🛡️ Acesso a Endpoints Protegidos](#-🛡️-acesso-a-endpoints-protegidos-)
-- [🧑‍💻 Autor](#-🧑‍💻-autor-)
-- [📜 Licença](#-📜-licença-)
+- [📦 Bibliotecas Java Utilizadas]
+- [✨ Funcionalidades Implementadas]
+- [🛠️ Como Começar]
+    - [⚙️ Pré-requisitos]
+    - [⚙️ Instalação]
+    - [▶️ Execução]
+- [📖 Uso / Como Usar]
+    - [👤 Registro de Novo Usuário]
+    - [🔑 Login de Usuário Existente]
+    - [🛡️ Acesso a Endpoints Protegidos]
+- [🧑‍💻 Autor]
+- [📜 Licença]
 
 ## 📦 Bibliotecas Java Utilizadas e suas Versões:
 
