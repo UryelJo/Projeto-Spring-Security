@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: Camp Manager
+
+  error:
+    include-stacktrace: true
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+  datasource:
+    url: ${DB_URL}
+    driver-class-name: org.postgresql.Driver
+    password: ${DB_PASSWORD}
+    username: ${DB_USERNAME}
+
+  flyway:
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+
+api:
+  security:
+    token-secret: ${JWT_SECRET}
+    origins-allowed: ${URL_FRONTS}
