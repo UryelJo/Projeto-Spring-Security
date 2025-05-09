@@ -26,7 +26,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         return UserEntityJpa.builder()
                 .login(user.getLogin())
                 .password(user.getPassword())
-                .role(UserRole.valueOf("ADMIN"))
+                .role(user.getRole())
                 .build();
     }
 }
