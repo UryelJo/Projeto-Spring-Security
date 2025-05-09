@@ -1,7 +1,7 @@
 package com.security.api.utils.config.bean;
 
 import com.security.api.application.gateway.TokenEncoderAdapter;
-import com.security.api.infra.persistence.repository.UserRepository;
+import com.security.api.application.gateway.UsuarioGateway;
 import com.security.api.utils.security.SecurityConfiguration;
 import com.security.api.utils.security.SecurityFilter;
 import org.springframework.context.annotation.Bean;
@@ -29,8 +29,8 @@ public class SecurityBeanConfiguration {
     }
 
     @Bean
-    public SecurityFilter securityFilter(TokenEncoderAdapter tokenEncoderAdapter, UserRepository userRepository) {
-       return new SecurityFilter(tokenEncoderAdapter, userRepository);
+    public SecurityFilter securityFilter(TokenEncoderAdapter tokenEncoderAdapter, UsuarioGateway userGateway) {
+       return new SecurityFilter(tokenEncoderAdapter, userGateway);
     }
 
     @Bean
